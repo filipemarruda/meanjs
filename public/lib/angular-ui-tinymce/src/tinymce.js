@@ -73,7 +73,6 @@ angular.module('ui.tinymce', [])
           if (tinyInstance) {
             tinyInstance.setContent(ngModel.$viewValue || '');
           }
-
         };
 
         scope.$on('$destroy', function() {
