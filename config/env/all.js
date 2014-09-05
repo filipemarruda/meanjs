@@ -27,7 +27,9 @@ module.exports = {
 				'public/lib/angular-ui-utils/ui-utils.js',
 				'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
 				'public/lib/tinymce/tinymce.min.js',
-				'public/lib/angular-ui-tinymce/src/tinymce.js'
+				'public/lib/angular-ui-tinymce/src/tinymce.js',
+				'public/lib/angular-truncate/src/truncate.js',
+				
 			]
 		},
 		css: [

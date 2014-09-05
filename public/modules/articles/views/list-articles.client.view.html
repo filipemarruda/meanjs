@@ -11,10 +11,7 @@
 				<span data-ng-bind="article.user.displayName"></span>
 			</small>
 			<h4 class="list-group-item-heading" data-ng-bind="article.title"></h4>
-			<div class="list-group-item-text" data-ng-bind-html="article.content"></div>
+			<div class="list-group-item-text" data-ng-bind-html="article.content | words:5:ignoreSpaces "></div>
 		</a>
-	</div>
-	<div class="alert alert-warning text-center" data-ng-if="articles.$resolved && !articles.length">
-		No articles yet, why don't you <a href="/#!/articles/create">create one</a>?
 	</div>
 </section>
